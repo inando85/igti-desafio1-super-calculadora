@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Super Calculadora - Bootcamp</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="text-center">Super Calculadora</h1>
+    </header>
+
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputA">Primeiro Número</label>
+          <input type="number" step="1" min="0" class="form-control" id="inputA" placeholder="Primeiro Número (A):">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputB">Segundo Número</label>
+          <input type="number" step="1" min="0" class="form-control" id="inputB" placeholder="Segundo Número (B):">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="sum">Soma (a + b):</label>
+          <input type="text" class="form-control" id="sum" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="subtraction-one">Subtração 1 (a - b):</label>
+          <input type="text" class="form-control" id="subtraction-one" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="subtraction-two">Subtração 2 (b - a):</label>
+          <input type="text" class="form-control" id="subtraction-two" disabled>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="multiplication">Multiplicação (a x b):</label>
+          <input type="text" class="form-control" id="multiplication" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="division-one">Divisão 1 (a / b):</label>
+          <input type="text" class="form-control" id="division-one" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="division-two">Divisão 2 (b / a):</label>
+          <input type="text" class="form-control" id="division-two" disabled>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="pow-one">Quadrado de a (a²):</label>
+          <input type="text" class="form-control" id="pow-one" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="pow-two">Quadrado de b (b²):</label>
+          <input type="text" class="form-control" id="pow-two" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="divider-one">Divisores inteiros de a:</label>
+          <input type="text" class="form-control" id="divider-one" disabled>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="divider-two">Divisores inteiros de b:</label>
+          <input type="text" class="form-control" id="divider-two" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="factorial-one">Fatorial de a (a!):</label>
+          <input type="text" class="form-control" id="factorial-one" disabled>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="factorial-two">Fatorial de b (b!):</label>
+          <input type="text" class="form-control" id="factorial-two" disabled>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
